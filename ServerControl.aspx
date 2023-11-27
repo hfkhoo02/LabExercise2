@@ -1,10 +1,6 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="ServerControl.aspx.cs" Inherits="LabExercise2.ServerControl" %>
+﻿<%@ Page Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="ServerControl.aspx.cs" Inherits="LabExercise2.ServerControl" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
 
-<!DOCTYPE html>
-
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-    <title></title>
     <style type="text/css">
         .auto-style1 {
             width: 237px;
@@ -33,8 +29,7 @@
             height: 29px;
         }
     </style>
-</head>
-<body>
+
     <form id="form1" runat="server">
         <div>
             <table class="auto-style4">
@@ -115,5 +110,5 @@
                 </table>
         </div>
     </form>
-</body>
-</html>
+
+</asp:Content>

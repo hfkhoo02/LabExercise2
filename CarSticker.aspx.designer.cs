@@ -11,7 +11,7 @@ namespace LabExercise2
 {
 
 
-    public partial class CourseInfo
+    public partial class CarSticker
     {
     }
 }
